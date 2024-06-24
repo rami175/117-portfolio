@@ -1,7 +1,51 @@
 {% extends 'base.html' %}
 
 {% block title %}About me {% endblock title %}
+{% load static %}
 
 {% block content %}
-<h1>Hello! this is about me</h1>
+
+<section class="about-section center-row">
+    <div class="about-imge-container center-row">
+        <img src="{% static './img/logo.png' %}" alt="" />
+    </div>
+
+    <div class="about-desc-container center-column">
+        <h1>MY ROLE AS DEVELOPER</h1>
+        <h2>Rami Mahmoud</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+            et officia nesciunt iste, fuga nam distinctio impedit
+            consequuntur veritatis. Delectus ratione ut ipsa, in repellat non
+            saepe praesentium voluptatem dolorem quos iusto minus nemo.
+            consequuntur veritatis. Delectus ratione ut ipsa, in repellat non
+            saepe praesentium voluptatem dolorem quos iusto minus nemo.
+            Veritatis facilis impedit veniam beatae? Repudiandae molestias
+            <br /><br />
+            consequatur nesciunt aut maxime nihil, facilis modi ab sed
+            explicabo veritatis aspernatur perferendis quae ipsum rerum
+            laborum dicta doloribus harum? Perspiciatis tempore voluptatum
+            asperiores odit quas earum veritatis iure libero. Ea alias quidem
+            eum rem, quis beatae tempora ratione libero quas omnis quibusdam
+            est harum eos iusto, accusantium, dicta perspiciatis dolor.
+            Quibusdam laborum commodi velit rem veritatis illo cumque!
+        </p>
+        <div class="lable-container center-column">
+            <h2>skills</h2>
+            <div class="lable-list center-row">
+                <label class="lable-text">HTML & CSS</label>
+                <label class="lable-text">JavaScript </label>
+                <label class="lable-text">jQuery </label>
+                <label class="lable-text">React</label>
+                <label class="lable-text">Python</label>
+                <label class="lable-text">Flask</label>
+                <label class="lable-text">Django</label>
+                <label class="lable-text">UX & UX design</label>
+                <label class="lable-text">Agile </label>
+                <label class="lable-text">Scrum</label>
+            </div>
+        </div>
+    </div>
+</section>
+
 {%  endblock content %}
