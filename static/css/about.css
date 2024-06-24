@@ -1,0 +1,17 @@
+img {
+	width: 40%;
+}
+.main {
+	display: flex;
+	margin: 2rem;
+	padding: 1rem;
+}
+.main-right {
+	width: 50%;
+}
+.main-left {
+	width: 50%;
+}
+.logo-imag {
+	width: 30px;
+}
